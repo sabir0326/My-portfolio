@@ -1045,13 +1045,13 @@ About Us Style
 }
 
 .about-us .services .item {
-  display: flex; /* Use flexbox for layout */
-  align-items: flex-start; /* Align items at the top */
+  /* display: flex;  */
+  align-items: left; /* Align items at the top */
   margin-bottom: 30px;
 }
 
 .about-us .services .item .icon {
-  /* float: left; */
+  float: left;
   margin-right: 25px;
 }
 
@@ -1067,14 +1067,21 @@ About Us Style
 }
 
 .about-us .services .item h5 {
-  color: #424242; /* Dark grey for better contrast */
+  color: #292F36; /* Dark grey for better contrast */
   font-size: 20px; /* Slightly smaller than h4 */
   font-weight: 500; /* Medium weight */
   margin: 0; /* Reset margin */
 }
 
+.about-us .services .item h6 {
+  margin-top: 10px; /* Reset margin */
+  color: #424242; /* Dark grey for better contrast */
+  font-size: 14px; /* Slightly smaller than h4 */
+  font-weight: 500; /* Medium weight */
+}
+
 .about-us .services .item p {
-  margin: 0; /* Reset margin */
+  margin-top: 20px; /* Reset margin */
   color: #333333; /* Darker grey for body text */
   font-size: 16px; /* Smaller size for the body text */
   line-height: 1.5; /* Improve readability */
